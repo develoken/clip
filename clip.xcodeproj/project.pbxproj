@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE28C8071AAD3705001C61AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28C8061AAD3705001C61AB /* AppDelegate.swift */; };
+		BE28C8091AAD3705001C61AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE28C8081AAD3705001C61AB /* Images.xcassets */; };
+		BE28C80C1AAD3705001C61AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE28C80A1AAD3705001C61AB /* MainMenu.xib */; };
+		BE28C8181AAD3705001C61AB /* clipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28C8171AAD3705001C61AB /* clipTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE28C8121AAD3705001C61AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE28C7F91AAD3705001C61AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE28C8001AAD3705001C61AB;
+			remoteInfo = clip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE28C8011AAD3705001C61AB /* clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE28C8051AAD3705001C61AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE28C8061AAD3705001C61AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE28C8081AAD3705001C61AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE28C80B1AAD3705001C61AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE28C8111AAD3705001C61AB /* clipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE28C8161AAD3705001C61AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE28C8171AAD3705001C61AB /* clipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clipTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE28C7FE1AAD3705001C61AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28C80E1AAD3705001C61AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE28C7F81AAD3705001C61AB = {
+			isa = PBXGroup;
+			children = (
+				BE28C8031AAD3705001C61AB /* clip */,
+				BE28C8141AAD3705001C61AB /* clipTests */,
+				BE28C8021AAD3705001C61AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE28C8021AAD3705001C61AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE28C8011AAD3705001C61AB /* clip.app */,
+				BE28C8111AAD3705001C61AB /* clipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE28C8031AAD3705001C61AB /* clip */ = {
+			isa = PBXGroup;
+			children = (
+				BE28C8061AAD3705001C61AB /* AppDelegate.swift */,
+				BE28C8081AAD3705001C61AB /* Images.xcassets */,
+				BE28C80A1AAD3705001C61AB /* MainMenu.xib */,
+				BE28C8041AAD3705001C61AB /* Supporting Files */,
+			);
+			path = clip;
+			sourceTree = "<group>";
+		};
+		BE28C8041AAD3705001C61AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE28C8051AAD3705001C61AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE28C8141AAD3705001C61AB /* clipTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE28C8171AAD3705001C61AB /* clipTests.swift */,
+				BE28C8151AAD3705001C61AB /* Supporting Files */,
+			);
+			path = clipTests;
+			sourceTree = "<group>";
+		};
+		BE28C8151AAD3705001C61AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE28C8161AAD3705001C61AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE28C8001AAD3705001C61AB /* clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE28C81B1AAD3705001C61AB /* Build configuration list for PBXNativeTarget "clip" */;
+			buildPhases = (
+				BE28C7FD1AAD3705001C61AB /* Sources */,
+				BE28C7FE1AAD3705001C61AB /* Frameworks */,
+				BE28C7FF1AAD3705001C61AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clip;
+			productName = clip;
+			productReference = BE28C8011AAD3705001C61AB /* clip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE28C8101AAD3705001C61AB /* clipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE28C81E1AAD3705001C61AB /* Build configuration list for PBXNativeTarget "clipTests" */;
+			buildPhases = (
+				BE28C80D1AAD3705001C61AB /* Sources */,
+				BE28C80E1AAD3705001C61AB /* Frameworks */,
+				BE28C80F1AAD3705001C61AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE28C8131AAD3705001C61AB /* PBXTargetDependency */,
+			);
+			name = clipTests;
+			productName = clipTests;
+			productReference = BE28C8111AAD3705001C61AB /* clipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE28C7F91AAD3705001C61AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = opensource;
+				TargetAttributes = {
+					BE28C8001AAD3705001C61AB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BE28C8101AAD3705001C61AB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BE28C8001AAD3705001C61AB;
+					};
+				};
+			};
+			buildConfigurationList = BE28C7FC1AAD3705001C61AB /* Build configuration list for PBXProject "clip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE28C7F81AAD3705001C61AB;
+			productRefGroup = BE28C8021AAD3705001C61AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE28C8001AAD3705001C61AB /* clip */,
+				BE28C8101AAD3705001C61AB /* clipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE28C7FF1AAD3705001C61AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28C8091AAD3705001C61AB /* Images.xcassets in Resources */,
+				BE28C80C1AAD3705001C61AB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28C80F1AAD3705001C61AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE28C7FD1AAD3705001C61AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28C8071AAD3705001C61AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28C80D1AAD3705001C61AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28C8181AAD3705001C61AB /* clipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE28C8131AAD3705001C61AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE28C8001AAD3705001C61AB /* clip */;
+			targetProxy = BE28C8121AAD3705001C61AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE28C80A1AAD3705001C61AB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE28C80B1AAD3705001C61AB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE28C8191AAD3705001C61AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE28C81A1AAD3705001C61AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE28C81C1AAD3705001C61AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE28C81D1AAD3705001C61AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE28C81F1AAD3705001C61AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clip.app/Contents/MacOS/clip";
+			};
+			name = Debug;
+		};
+		BE28C8201AAD3705001C61AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clip.app/Contents/MacOS/clip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE28C7FC1AAD3705001C61AB /* Build configuration list for PBXProject "clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28C8191AAD3705001C61AB /* Debug */,
+				BE28C81A1AAD3705001C61AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE28C81B1AAD3705001C61AB /* Build configuration list for PBXNativeTarget "clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28C81C1AAD3705001C61AB /* Debug */,
+				BE28C81D1AAD3705001C61AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE28C81E1AAD3705001C61AB /* Build configuration list for PBXNativeTarget "clipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28C81F1AAD3705001C61AB /* Debug */,
+				BE28C8201AAD3705001C61AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE28C7F91AAD3705001C61AB /* Project object */;
+}
